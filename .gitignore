@@ -1,0 +1,11 @@
+/venv
+/dist
+/payload
+/scripts
+/build
+
+*.plist
+*.sh
+*.pkg
+*.spec
+*.icns

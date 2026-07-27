@@ -1,0 +1,5 @@
+# Native macOS framework (Cocoa/Objective-C API bridge)
+pyobjc>=10.0
+
+# Packaging tool for generating the executable and the .app bundle
+pyinstaller>=6.0
