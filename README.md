@@ -12,7 +12,7 @@ A lightweight, native fan controller for the macOS menu bar, designed specifical
 * **Bilingual UI (On-the-fly):** Instantly toggle the interface language between English and Spanish directly from the menu, without reloading the application.
 * **Native macOS Integration:** Built entirely with Cocoa/Objective-C APIs (`NSMenu`, `NSView`) for a seamless, native look and feel.
 * **Secure privilege escalation:** Uses a *setuid* C binary, allowing hardware modifications without asking for the administrator password every time a fan is adjusted.
-* 
+ 
 ##  Compatibility and Disclaimer
 
 * **Intel Macs only:** This software interacts with the `AppleSMC` API and the `IOKit` framework, which are specific to Intel architecture. **It is not compatible with Apple Silicon (M1/M2/M3)**.
