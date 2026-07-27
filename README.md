@@ -3,6 +3,8 @@
 A lightweight, native fan controller for the macOS menu bar, designed specifically for Intel architectures. It allows you to monitor system temperatures and take manual or automatic control of fan RPMs.
 ###  Preview
 <img width="348" height="314" alt="FanControl" src="https://github.com/user-attachments/assets/587d9d34-1a96-45de-819e-e169114a69fe" />
+
+
 ##  Features
 
 * **Real-time monitoring:** Direct reading from the SMC (System Management Controller) for CPU and GPU temperatures.
