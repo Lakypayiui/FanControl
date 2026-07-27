@@ -42,18 +42,5 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 
-# 3. Compile the C helper
-bash build.sh
-
-# 4. Generate the application with PyInstaller
-pyinstaller FanControl.spec --clean
-
-# 5. (Optional) Build the .pkg installer
-# Requires configuring the components.plist and the postinstall script
-pkgbuild --root payload \
-         --component-plist components.plist \
-         --identifier com.fancontrol.app \
-         --version 1.0 \
-         --install-location /Applications \
-         --scripts scripts \
-         FanControl-1.0.pkg
+# 3. Run FanControl
+python3 src/fan_control_native.py
