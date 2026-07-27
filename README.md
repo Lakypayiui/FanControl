@@ -2,16 +2,17 @@
 
 A lightweight, native fan controller for the macOS menu bar, designed specifically for Intel architectures. It allows you to monitor system temperatures and take manual or automatic control of fan RPMs.
 ###  Preview
-<img width="348" height="314" alt="FanControl" src="https://github.com/user-attachments/assets/587d9d34-1a96-45de-819e-e169114a69fe" />
+<img width="357" height="320" alt="FanControl" src="https://github.com/user-attachments/assets/8adc616c-5c91-4b2c-8635-a8a973f8884e" />
 
 
 ##  Features
 
 * **Real-time monitoring:** Direct reading from the SMC (System Management Controller) for CPU and GPU temperatures.
 * **Manual and automatic control:** Intuitive interface to set the RPM of each fan independently or return control to the operating system.
-* **Native integration:** Lives discreetly in the top macOS menu bar.
+* **Bilingual UI (On-the-fly):** Instantly toggle the interface language between English and Spanish directly from the menu, without reloading the application.
+* **Native macOS Integration:** Built entirely with Cocoa/Objective-C APIs (`NSMenu`, `NSView`) for a seamless, native look and feel.
 * **Secure privilege escalation:** Uses a *setuid* C binary, allowing hardware modifications without asking for the administrator password every time a fan is adjusted.
-
+* 
 ##  Compatibility and Disclaimer
 
 * **Intel Macs only:** This software interacts with the `AppleSMC` API and the `IOKit` framework, which are specific to Intel architecture. **It is not compatible with Apple Silicon (M1/M2/M3)**.
