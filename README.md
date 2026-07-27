@@ -1,4 +1,3 @@
-<img width="348" height="314" alt="FanControl" src="https://github.com/user-attachments/assets/587d9d34-1a96-45de-819e-e169114a69fe" />
 #  Fan Control for macOS (Intel)
 
 A lightweight, native fan controller for the macOS menu bar, designed specifically for Intel architectures. It allows you to monitor system temperatures and take manual or automatic control of fan RPMs.
@@ -45,3 +44,6 @@ pip install -r requirements.txt
 
 # 3. Run FanControl
 python3 src/fan_control_native.py
+```
+### Controls
+<img width="348" height="314" alt="FanControl" src="https://github.com/user-attachments/assets/587d9d34-1a96-45de-819e-e169114a69fe" />
